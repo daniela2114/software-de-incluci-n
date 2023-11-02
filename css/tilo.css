@@ -1,0 +1,207 @@
+body {
+    background-color: rgba(219, 234, 255, 0.695);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+.contenedor {
+    display: flex;
+    margin:3rem auto;
+    width: 28rem;
+    height: 30.6rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff; /* Color de fondo del contenedor */
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+ flex-direction: column;
+}
+.contenedor .btn input {
+    width: 100%;
+    height: 3rem;
+    padding: 10px;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom:5px ;
+    margin-top: 20px;
+ 
+    background-color: #007bff; /* Color del botón de inicio de sesión */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.contenedor .camp input{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.contenedor-regis {
+    display: flex;
+    width: 30rem;
+    height: 41rem;
+    border: 2px solid black;
+    justify-content: center;
+    margin: 0 auto;
+ flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right,
+
+            rgb(17, 232, 247)40%,
+            rgb(27, 27, 27)60%,
+            rgb(27, 27, 27));
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+.form input{
+    width: 24rem;
+    height: 18px;
+}
+.form .sel select{
+    display: flex;
+    margin-bottom: 10px;
+    width: 25.3rem;
+    height: 2.6rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.img img{
+margin-top: 8px;
+
+    width: 10rem;
+    height: 8rem;
+}
+.img_regis{
+
+    height: 8rem;
+}
+.olv_contra{
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.olv_contra a{
+    color: #007bff; /* Color de los enlaces */
+    text-decoration: none;
+    margin: 10px 0;
+}
+.olv_contra2{
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.olv_contra2 a{
+    color: #007bff; /* Color de los enlaces */
+    text-decoration: none;
+    margin: 10px 0;
+}
+.btn{
+    text-align: center;
+}
+
+
+
+/*. btn input::before    {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,
+            red, blue, deeppink, blue,
+            red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+
+
+/* }
+ */
+/* Regitro Diseño*/
+.form .jorn{
+    margin-top: 5px;
+}
+.form .jorn input{
+width: 5rem;
+
+}
+.sel-reg{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+ .campo{
+    display:flex;
+    flex-direction: row;
+
+    
+
+} 
+.campo label{
+    margin-left: -11rem;
+}
+.cuerpo{
+    margin-top: 10px;
+    display: flex;
+ 
+    flex-direction: column;
+align-items: flex-start;
+    height: 5rem;
+    width: 100%;
+   margin-top: 13px;
+    overflow:visible;
+   
+}
+
+.materiasss{
+    border: 2px solid red;
+    margin-top: 5px;
+    height: 11rem;
+    overflow: auto;
+}
+.campo{
+    display: flex;
+    margin-left: -10rem; 
+   
+}
+.enlace{
+    display: flex;
+    flex-direction: column;
+}

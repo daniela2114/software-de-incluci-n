@@ -1,0 +1,11 @@
+{
+    "require": {
+        "setasign/fpdf": "^1.8",
+        
+        "dompdf/dompdf": "^1.0",
+        "setasign/fpdi": "^2.5",
+        "tecnick.com/tcpdf": "^6.6",
+        "mpdf/mpdf": "^6.0"
+
+    }
+}
